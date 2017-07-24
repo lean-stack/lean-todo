@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/lean-stack/lean-todo#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "tingo-rest": "^2.0.0"
   }
 }
