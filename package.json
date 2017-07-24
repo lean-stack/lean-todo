@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/lean-stack/lean-todo/issues"
   },
-  "homepage": "https://github.com/lean-stack/lean-todo#readme"
+  "homepage": "https://github.com/lean-stack/lean-todo#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
