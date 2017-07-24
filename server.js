@@ -1,9 +1,8 @@
 
-const app = require('express')();
+const express = require('express');
+const app = express();
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+app.use(express.static('dist'));
 
 app.listen(2121, function () {
   console.log('Lean Todo App listening on port 2121!');
