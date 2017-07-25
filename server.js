@@ -2,6 +2,12 @@
 const express = require('express');
 const app = express();
 
+// CORS
+const cors = require('cors');
+app.use(cors());
+// Enable options preflight
+app.options('*', cors());
+
 const tingoRest = require('tingo-rest');
 app.use('/api',tingoRest(__dirname + '/data'));
 

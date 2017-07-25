@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/lean-stack/lean-todo#readme",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.15.3",
     "tingo-rest": "^2.0.0"
   }
